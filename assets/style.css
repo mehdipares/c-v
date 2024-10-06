@@ -5,12 +5,15 @@ header img {
     border-radius: 50%;      /*dimension et marge de la photo de profil */
 }
 
+h2 {
+    margin-top: 0px;
+}
 header {
     width: 100%;
     background-color: #17abb3;               /* classe tous les élments dans le header en ligne (photo et texte)*/
     display: flex;
     flex-direction: row;   
-    
+    color: white;
 }
 .head {
     display: flex;
@@ -27,12 +30,28 @@ header {
 
 .head_flex1 a {
     margin-right: 40px;  
-    margin-top: 15px;  
+    margin-top: 15px;                    
     margin-left: 40px;  
 }
 
 .skill{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;         /* place les etoiles en face des compétences*/
     align-items: center;
+}
+
+#lateral {
+    background-color: #e3e3e3;
+    width: 800px;
+    margin-top: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.stars {
+    margin: 15px;
 }
